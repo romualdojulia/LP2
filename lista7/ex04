@@ -1,0 +1,7 @@
+4- Qual a finalidade dos métodos doGet e doPost das classes Servlets. Apresente a assinatura dos métodos doGet e doPost
+
+o método doGet tem como responsabilidade recuperar e processar requisições enviadas pelo cliente em formado get, de mais fácil visualização ao usuário.
+Assinatura: protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+
+o método doPost tem como responsabilidade recuperar e processar requisições enviadas pelo cliente no formato post, que é mais seguro. 
+Assinatura: protected void doPos (HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException

@@ -1,0 +1,13 @@
+3- Descreva quais são as etapas do ciclo de vida dos objetos da classe Servlet. Apresente a assinatura dos métodos e a finalidade de cada método que é executado no ciclo de vida dos Servlets.
+
+O ciclo de vida de um Servlet possui três métodos: init(), sevice() e destroy().
+
+O Servlet é inicializado com a chamada do método init(), normalmente criado quando um usuário chama pela primeira vez uma URL correspondente.
+Assinatura: public void init(ServletConfig config) throws ServletException
+
+O método service(), lida com as solicitações provenientes dos clientes (navegadores) e escreve respostas formatadas ao cliente.
+Assinatura: public void service(ServletRequest request, ServletResponse response)
+throws ServletException, IOException
+
+O método destroy() é chamado apenas no final do ciclo, com a função de fechar conexões de banco de dados, interromper theads em segunfo plano, gravar lista de cookies e outras tividades de limpeza.
+Assinatura: public void destroy()
