@@ -4,13 +4,17 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Exemplos - Expression Language - EL</title>
+<title>Insert title here</title>
 </head>
 <body>
-
 	<h1>Expression Language EL:</h1>
+	<%
 	
-	Nome: ${param.nome} <br>
-	Prontuario: ${param.prontuario}
+		session.setAttribute("nome", "Bill Gates");
+	
+		session.setAttribute("email", "billgates@gmail.com");
+	
+	%>
+	<a href="sessionScope2.jsp">Click</a>
 </body>
 </html>

@@ -4,13 +4,15 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Exemplos - Expression Language - EL</title>
+<title>Exemplos da Expression Language EL</title>
 </head>
 <body>
-
 	<h1>Expression Language EL:</h1>
 	
-	Nome: ${param.nome} <br>
-	Prontuario: ${param.prontuario}
+	${sessionScope.nome }
+	
+	<br>
+	
+	${sessionScope.email }
 </body>
 </html>

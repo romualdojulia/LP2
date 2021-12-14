@@ -10,9 +10,9 @@
 
 	<h1>Expression Language EL: </h1>
 	
-	<form action="param2.jps">
-	Nome: <input type="text" name="nome"></br>
-	Prontuario: <input type="text" name="prontuario"></br>
+	<form action="param2.jsp">
+	Nome: <input type="text" name="nome"><br>
+	Prontuario: <input type="text" name="prontuario"><br>
 	<input type="submit" value="Enviar">
 	</form>
 	
